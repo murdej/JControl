@@ -9,15 +9,8 @@
 			<h1>JControl examples</h1>
 		</header>
 		
-		<nav>
-			<ul>
-				<li><a href="#binding-events">Calculator - Binding events</a></li>
-			</ul>
-		</nav>
-
-		<article id="binding-events">
+		<article>
 			<h3>Calculator</h3>
-			<p>Binding events</p>
 			<div id="widget-calculator">
 				<input type="text" class="ui-entry" />
 				<div class="ui-result"></div>
@@ -46,6 +39,21 @@
 			</div>
 		</article>
 		
+		<article id="charcount">
+			<h3>Char counter</h3>
+			Subject: 
+			<span class="widget-char-counter">
+				<input type="text" maxlength="10" class="ui-input" />
+				<span class="ui-info"></span>
+			</span>
+			<br />
+			Message:
+			<div class="widget-char-counter">
+				<textarea type="text" class="ui-input"></textarea>
+				<div class="ui-info"></div>
+			</div>
+		</article>
+		
 		<footer>
 			<p>Brekeke muhehe</p>
 		</footer>	
@@ -53,4 +61,5 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="../src/JControl.js"></script>
 	<script src="calculator.js"></script>
-</html>
+	<script src="charcount.js"></script>
+	</html>

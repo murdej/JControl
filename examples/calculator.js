@@ -40,6 +40,7 @@ WidgetCalculator.prototype = {
 	}
 }
 
+// Activate widget
 $(function(){
 	new WidgetCalculator('#widget-calculator');
 });
