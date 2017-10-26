@@ -1,0 +1,56 @@
+<html lang="en">
+	<head>
+		<title>JControl examples</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+	
+		<header>
+			<h1>JControl examples</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="#binding-events">Calculator - Binding events</a></li>
+			</ul>
+		</nav>
+
+		<article id="binding-events">
+			<h3>Calculator</h3>
+			<p>Binding events</p>
+			<div id="widget-calculator">
+				<input type="text" class="ui-entry" />
+				<div class="ui-result"></div>
+				<div class="buttons">
+					<button ui-click="button_click" class="ui-btn1">1</button>
+					<button ui-click="button_click" class="ui-btn2">2</button>
+					<button ui-click="button_click" class="ui-btn3">3</button>
+					<button ui-click="button_click" class="ui-btnPlus">+</button>
+					<br />					
+					<button ui-click="button_click" class="ui-btn4">4</button>
+					<button ui-click="button_click" class="ui-btn5">5</button>
+					<button ui-click="button_click" class="ui-btn6">6</button>
+					<button ui-click="button_click" class="ui-btnMinus">-</button>
+					<br />					
+					<button ui-click="button_click" class="ui-btn7">7</button>
+					<button ui-click="button_click" class="ui-btn8">8</button>
+					<button ui-click="button_click" class="ui-btn9">9</button>
+					<button ui-click="button_click" class="ui-btnMul">*</button>
+					<br />					
+					<button ui-click="button_click" class="ui-btn0">0</button>
+					<button ui-click="button_click" class="ui-btnComma">.</button>
+					<button class="ui-btnBackspace">&lt;-</button>
+					<button class="ui-btnCompute">=</button>
+					<br />
+				</div>
+			</div>
+		</article>
+		
+		<footer>
+			<p>Brekeke muhehe</p>
+		</footer>	
+	</body>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="../src/JControl.js"></script>
+	<script src="calculator.js"></script>
+</html>
