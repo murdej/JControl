@@ -1,4 +1,8 @@
-
+/******************************************************************
+ * Author: Murděj Ukrutný <vit.peprnicek@gmail.com>
+ * Licence: GNU General Public License v3.0
+ *          https://github.com/murdej/JControl/blob/master/LICENSE
+ *****************************************************************/
 Murdej_JControl = function() {
 	this.element = null;
 	this.ui = {};
